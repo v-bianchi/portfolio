@@ -31,13 +31,17 @@ a:hover {
 
 /*Component design*/
 
+table {
+  margin: 10px auto;
+}
+
 td {
-  padding: 5px;
+  padding: 7px;
 }
 
 .container {
-  width: 50%;
-  max-width: 700px;
+  width: 45%;
+  min-width: 480px;
   margin: 0 auto;
 }
 
@@ -58,17 +62,20 @@ td {
   margin: 0px;
 }
 
-.avatar {
-  width: 150px;
+.img-rounded {
   border-radius: 50%;
   border: 1px solid #D9D9D9FF;
+}
+
+.img-150 {
+  width: 150px;
 }
 
 .portrait {
   width: 150px;
 }
 
-.list-inline {
+ul {
   list-style: none;
   padding-left: 0px;
 }
@@ -91,5 +98,8 @@ td {
   color: white;
 }
 
+.devicons {
+  font-size: 7em;
+}
 
 
