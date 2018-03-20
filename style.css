@@ -40,8 +40,8 @@ td {
 }
 
 .container {
-  width: 45%;
-  min-width: 480px;
+  width: 95%;
+  max-width: 600px;
   margin: 0 auto;
 }
 
@@ -71,8 +71,8 @@ td {
   width: 150px;
 }
 
-.portrait {
-  width: 150px;
+.screenshot {
+  width: 200px;
 }
 
 ul {
