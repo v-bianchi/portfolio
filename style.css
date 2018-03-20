@@ -96,10 +96,20 @@ ul {
 .btn-red:hover {
   background-color: #FD6060FF;
   color: white;
+  cursor: pointer;
 }
 
 .devicons {
   font-size: 7em;
+}
+
+.hidden {
+  display: none;
+}
+
+#contact-info {
+  transition: 0.2s ease;
+  padding-top: 40px;
 }
 
 
