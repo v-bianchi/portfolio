@@ -58,6 +58,9 @@ td {
   font-size: 3em;
 }
 
+.huge {
+  font-size: 6em;
+}
 .no-margin {
   margin: 0px;
 }
@@ -99,9 +102,6 @@ ul {
   cursor: pointer;
 }
 
-.devicons {
-  font-size: 7em;
-}
 
 .hidden {
   display: none;
