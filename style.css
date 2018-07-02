@@ -28,16 +28,38 @@ a:hover {
   color: #DF1616FF
 }
 
+/*Column system*/
+
+.row {
+  width: 100%;
+}
+
+.col {
+  display: inline-block;
+  width: 49%;
+  vertical-align: top;
+}
+
+.col:last-child {
+  text-align: left;
+}
+
+.col img {
+  margin: 24px;
+}
+
+@media only screen and (max-width: 600px) {
+  .col {
+    width: 100%;
+  }
+
+  .col:last-child {
+    text-align: center;
+  }
+}
+
 
 /*Component design*/
-
-table {
-  margin: 10px auto;
-}
-
-td {
-  padding: 7px;
-}
 
 .container {
   width: 95%;
@@ -52,13 +74,14 @@ td {
   text-align: center;
   padding: 30px;
   margin: 30px 0px;
+  transition: all 0.3s ease;
 }
 
-.big {
+.contact-icon {
   font-size: 3em;
 }
 
-.huge {
+.skill-icon {
   font-size: 6em;
 }
 .no-margin {
@@ -75,8 +98,10 @@ td {
 }
 
 .screenshot {
-  width: 200px;
+  width: 90%;
+  max-width: 350px;
 }
+
 
 ul {
   list-style: none;
@@ -108,8 +133,8 @@ ul {
 }
 
 #contact-info {
-  transition: 0.2s ease;
   padding-top: 40px;
+  backface-visibility: hidden;
 }
 
 
