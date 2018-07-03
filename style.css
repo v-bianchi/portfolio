@@ -95,6 +95,10 @@ a:hover {
   margin: 0px;
 }
 
+.margin-right {
+  margin-right: 1rem;
+}
+
 .img-rounded {
   border-radius: 50%;
   border: 1px solid #D9D9D9FF;
