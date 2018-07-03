@@ -1,7 +1,13 @@
+/*rem settings*/
+html {
+  font-size: 10px;
+}
+
 /*Fonts and colours*/
 
 body {
   font-family: 'Roboto', sans-serif;
+  font-size: 1.6rem;
   background-color: #CFCFCFFF;
   color: #3E3E3EFF;
   line-height: 1.4;
@@ -17,6 +23,7 @@ h1 {
 
 p {
   font-weight: 300;
+  font-size: 1.8rem;
 }
 
 a {
@@ -45,7 +52,7 @@ a:hover {
 }
 
 .col img {
-  margin: 24px;
+  margin: 2.4rem;
 }
 
 @media only screen and (max-width: 600px) {
@@ -72,17 +79,17 @@ a:hover {
   border-radius: 4px;
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
   text-align: center;
-  padding: 30px;
-  margin: 30px 0px;
+  padding: 3rem;
+  margin: 3rem 0px;
   transition: all 0.3s ease;
 }
 
 .contact-icon {
-  font-size: 3em;
+  font-size: 6rem;
 }
 
 .skill-icon {
-  font-size: 6em;
+  font-size: 10rem;
 }
 .no-margin {
   margin: 0px;
@@ -109,13 +116,13 @@ ul {
 }
 
 .list-inline li {
-  padding: 10px 20px;
+  padding: 1rem 2rem;
   display: inline-block;
 }
 
 .btn-red {
-  height: 50px;
-  padding: 15px 25px;
+  height: 5rem;
+  padding: 1.5rem 2.5rem;
   border-radius: 3px;
   background-color: #DF1616FF;
   color: white;
@@ -133,7 +140,7 @@ ul {
 }
 
 #contact-info {
-  padding-top: 40px;
+  padding-top: 4rem;
   backface-visibility: hidden;
 }
 
